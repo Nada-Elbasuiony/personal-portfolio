@@ -1,12 +1,54 @@
-# React + Vite
+# Personal Portfolio Site with Git Workflow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple personal portfolio website created as part of a practical assignment. The goal is not design, but mastering Git commands and workflow management.
 
-Currently, two official plugins are available:
+## 👩‍💻 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Name:** ندى أشرف أحمد السيد أحمد
+**University:** كلية الحاسبات والمعلومات – جامعة دمنهور
+**Grade:** الفرقة الرابعة
+**Role:** مطورة ويب (Web Developer)
+**GitHub:** [github.com/nada](https://github.com/nada)
+**LinkedIn:** [linkedin.com/in/nada](https://linkedin.com/in/nada)
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+my-project/
+├─ public/
+├─ src/
+│  ├─ assets/             # الصور
+│  ├─ components/         # الكمبوننتات (Navbar, About, Contact...)
+│  ├─ App.jsx             # التطبيق الأساسي
+│  ├─ main.jsx            # نقطة البداية
+│  └─ index.css           # استايلات Tailwind
+├─ tailwind.config.js     # إعدادات Tailwind
+├─ postcss.config.js      # إعدادات PostCSS
+├─ vite.config.js         # إعدادات Vite
+├─ package.json           # الحزم
+```
+
+## 🔧 Git Workflow
+
+### ✅ Repository Initialization
+
+* `git init`
+* Add initial files and commit
+
+### ✅ Branching
+
+* Created branch `feature/contact-form`
+* Added and committed existing `Contact.jsx`
+* Merged into `master`
+
+### ✅ Remote Collaboration
+
+* Added GitHub remote repository
+* `git push`, `git pull` used successfully
+
+### ✅ Stashing & Undo
+
+* Used `git stash`, `git stash pop`
+* Used `git reset --soft` and `--hard`
+
+### ✅ Project Status: Completed
