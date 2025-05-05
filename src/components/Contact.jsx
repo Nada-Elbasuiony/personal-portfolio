@@ -16,4 +16,4 @@ function Contact() {
   }
   
   export default Contact;
-  
+//   <!-- Contact page created earlier -->
