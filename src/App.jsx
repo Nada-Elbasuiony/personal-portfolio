@@ -9,6 +9,8 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div>
+    
+{/*   تعديل بسيط للتجربه */}
       <Navbar />
       <Hero />
       <About />
